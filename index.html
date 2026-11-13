@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi página educativa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f5f9;
+      color: #203047;
+    }
+    header {
+      background: #182b48;
+      color: white;
+      text-align: center;
+      padding: 65px 20px;
+    }
+    header h1 { font-size: 36px; }
+    button {
+      background: white;
+      border: 0;
+      border-radius: 8px;
+      padding: 12px 22px;
+      cursor: pointer;
+    }
+    main {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+      gap: 20px;
+    }
+    article {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+    footer { text-align: center; padding: 30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aprendamos biomecánica</h1>
+    <p>Recursos para comprender el movimiento humano</p>
+    <button onclick="document.getElementById('contenidos').scrollIntoView({behavior:'smooth'})">
+      Explorar contenidos
+    </button>
+  </header>
+
+  <main id="contenidos">
+    <h2>Contenidos educativos</h2>
+    <div class="cards">
+      <article>
+        <h3>Análisis de la marcha</h3>
+        <p>Conoce las fases y características del ciclo de marcha.</p>
+      </article>
+      <article>
+        <h3>Biomecánica</h3>
+        <p>Descubre los fundamentos del movimiento humano.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>Recurso educativo abierto | 2026</footer>
+</body>
+</html> 
