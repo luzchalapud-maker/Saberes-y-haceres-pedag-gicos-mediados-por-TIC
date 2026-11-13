@@ -1,1 +1,1 @@
-# Saberes-y-haceres-pedag-gicos-mediados-por-TIC
+# Saberes-y-haceres-pedagógicos-mediados-por-TIC
